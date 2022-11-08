@@ -48,3 +48,8 @@ button {
   font-family: cursed-timer;
   font-size: 1.5rem;
 }
+
+#reset {
+  height: 50px;
+  margin: auto 0 auto 0; 
+}

@@ -14,6 +14,11 @@ function displayPoints() {
   guestDisplay.textContent = guestScore;
 }
 
+function resetPoints() {
+  homeScore = 0;
+  guestScore = 0;
+  displayPoints();
+}
 
 
 
