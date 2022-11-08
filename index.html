@@ -12,20 +12,20 @@
   <div id="container">
     <div class="scoreboard">
       <h1>HOME</h1>
-      <div class="score">0</div>
+      <div class="score" id="home-score">0</div>
       <div class="button-container">
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <button id="home1" onclick="scorePoints('home', 1)">+1</button>
+        <button id="home2" onclick="scorePoints('home', 2)">+2</button>
+        <button id="home3" onclick="scorePoints('home', 3)">+3</button>
       </div>
     </div>
     <div class="scoreboard">
       <h1>GUEST</h1>
-      <div class="score">0</div>
+      <div class="score" id="guest-score">0</div>
       <div class="button-container">
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <button id="guest1" onclick="scorePoints('guest', 1)">+1</button>
+        <button id="guest2" onclick="scorePoints('guest', 2)">+2</button>
+        <button id="guest3" onclick="scorePoints('guest', 3)">+3</button>
       </div>
     </div>
   </div>
